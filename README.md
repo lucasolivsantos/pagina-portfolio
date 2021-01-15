@@ -1,10 +1,10 @@
-#Portfólio
+# Portfólio
 Lucas Oliveira Santos, 2020
 
-##Tarefas
+## Tarefas
 O controle das tarefas desse projeto será realizado no Github
 
-##Ícones
+## Ícones
 
 :package: Nova funcionalidade
 :date: Atualização
