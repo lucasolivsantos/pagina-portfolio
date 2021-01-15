@@ -6,7 +6,7 @@ O controle das tarefas desse projeto será realizado no Github
 
 ## Ícones
 
-:package: Nova funcionalidade
-:date: Atualização
-:traffic_light: Correção de bug
-:unlock: Release
+* :package: Nova funcionalidade
+* :date: Atualização
+* :traffic_light: Correção de bug
+* :unlock: Release
