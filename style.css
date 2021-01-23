@@ -175,6 +175,7 @@ header{
     top: 0;
     right: -20rem;
     transition: all 1s;
+    z-index: 99;
 }
 
 .show-menu .sidebar{
@@ -380,6 +381,7 @@ header{
 }
 
 .card-info{
+    cursor: pointer;
     position: absolute;
     bottom: 0;
     opacity: 0;
@@ -414,6 +416,7 @@ header{
 }
 
 .card-info button{
+    cursor: pointer;
     width: 8rem;
     height: 2.5rem;
     background: #3a7bd5;
