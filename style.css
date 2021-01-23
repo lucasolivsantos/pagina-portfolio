@@ -292,7 +292,7 @@ header{
 }
 
 .sessao-conhecimentos{
-    background-color: rgb(238, 232, 232);
+    background-color: rgba(206, 206, 206, 0.568);
 }
 
 .sessao-header{
@@ -362,7 +362,7 @@ header{
 .card-img-wrapper{
     width: 100%;
     height: 100%;
-    background-color: #555;
+    background-color: #758b97;
     border-radius: .7rem;
 }
 
@@ -372,13 +372,21 @@ header{
     height: 100%;
     border-radius: .7rem;
     opacity: .8;
+    transition: opacity .3s;
+}
+
+.card:hover .card-img-wrapper img{
+    opacity: .5;
 }
 
 .card-info{
     position: absolute;
     bottom: 0;
+    opacity: 0;
+    visibility: hidden;
     padding: 2rem;
-    text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, .4);
+    text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, .4);
+    transition: all .3s;
 }
 
 .card-info h2{
@@ -389,7 +397,38 @@ header{
 }
 
 .card-info h3{
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #297196;
+    margin-bottom: 1.5rem;
+}
+
+.card-info p{
     font-family: var(--font-secundary);
-    font-weight: bolder;
-    color: #3a6073;
+    color: #eee;
+    font-weight: 800;
+    font-size: 1.5rem;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.card-info button{
+    width: 8rem;
+    height: 2.5rem;
+    background: #3a7bd5;
+    background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);
+    background: linear-gradient(to right, #3a6073, #3a7bd5);
+    font-family: var(--font-action);
+    font-size: 1rem;
+    color: #eee;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 0 .1rem .8rem rgba(0, 0, 0, .4);
+}
+
+.card:hover .card-info{
+    bottom: 2rem;
+    opacity: 1;
+    visibility: visible;
 }
