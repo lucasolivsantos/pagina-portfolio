@@ -395,14 +395,14 @@ header{
     font-family: var(--font-primary);
     font-size: 2rem;
     font-weight: 500;
-    color: #eee;
+    color: #173546;
 }
 
 .card-info h3{
-    font-family: var(--font-primary);
+    font-family: var(--font-action);
     font-size: 2rem;
     font-weight: bold;
-    color: #297196;
+    color: #eee;
     margin-bottom: 1.5rem;
 }
 
