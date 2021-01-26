@@ -333,7 +333,8 @@ header{
 }
 
 .conhecimento-text{
-    font-family: "Josefin Slab", serif;
+    font-family: var(--font-secundary);
+    font-weight: 600;
     margin-top: 1rem;
 }
 
