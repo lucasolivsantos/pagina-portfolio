@@ -18,23 +18,25 @@
             <div class="line" id="line3"></div>
             <span>Fechar</span>
         </div>
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="/imagens/bg.jpg" alt="Foto de Remy_Loz">
             </div>
             <div class="banner">
                 <h1>Estagiário de Processos/Desenvolvimento <br>& Estudante de Sistemas de Informação</h1>
                 <p>Lucas Oliveira Santos</p>
-                <button>Sobre mim</button>   
+                <button>
+                    <a href="#conhecimentos">Saiba mais</a>
+                </button>
             </div>
         </header>
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
                     <li class="menu-item"><a href="#" class="menu-link">Currículo</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Quem sou eu?</a></li>
+                    <li class="menu-item"><a href="#about" class="menu-link">Quem sou eu?</a></li>
                     <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
                 </ul>
             </nav>
@@ -45,7 +47,7 @@
                 <a href="https://www.instagram.com/lucas_olivsantos/" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
         </aside>
-        <section class="sessao-conhecimentos">
+        <section class="sessao-conhecimentos" id="conhecimentos">
             <div class="sessao-header">
                 <h1>Conhecimentos e Experiências</h1>
             </div>
@@ -90,7 +92,7 @@
                         <h3>Testes de Software</h3>
                     </div>
                     <div class="conhecimento-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consequatur, consequuntur quas vitae quos voluptatem cupiditate dolorum saepe impedit fugiat libero incidunt maiores, itaque, vero placeat! Architecto at vero unde.</p>
+                        <p>Experiência em rotinas de testes funcionais e de navegação do sistema, elaboração e aprimoramento de checklists e planos de testes para novas ferramentas ou produtos, apoio e participação na identificação de possíveis falhas e suas resoluções.</p>
                     </div>
                 </div>
                 <div class="conhecimento">
@@ -110,7 +112,7 @@
                         <h3>Idiomas</h3>
                     </div>
                     <div class="conhecimento-text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quaerat architecto beatae voluptatem quibusdam dignissimos molestias alias reprehenderit, quo, nesciunt nemo tempore et! Id sapiente dignissimos totam eos consequuntur itaque!</p>
+                        <p>Fluente em Português (nativo), e conhecimento em Inglês (nível básico). Para estudos, utilizo a plataforma Duolingo e Wiseup Online.</p>
                     </div>
                 </div>
                 <div class="conhecimentos-img-wrapper">
@@ -118,7 +120,7 @@
                 </div>
             </div>
         </section>
-        <section class="sessao-about">
+        <section class="sessao-about" id="about">
             <div class="sessao-header">
                 <h1>Sobre mim</h1>
             </div>
@@ -131,7 +133,9 @@
                         <h2>Sobre mim</h2>
                         <h3>Minha história</h3>
                         <p>Criação e referências</p>
-                        <button>Saiba mais</button>
+                        <button>
+                            <a href="historia.html">Saiba mais</a>
+                        </button>
                     </div>
                 </div>
                 <div class="card">
@@ -142,7 +146,9 @@
                         <h2>Sobre mim</h2>
                         <h3>Projetos</h3>
                         <p>Estudos, interesses e música</p>
-                        <button>Saiba mais</button>
+                        <button>
+                            <a href="projetos.html">Saiba mais</a>
+                        </button>
                     </div>
                 </div>
                 <div class="card">
@@ -153,11 +159,30 @@
                         <h2>Sobre mim</h2>
                         <h3>Profissional</h3>
                         <p>Experiências, êxitos, aprendizados e currículo</p>
-                        <button>Saiba mais</button>
+                        <button>
+                            <a href="profissional.html">Saiba mais</a>
+                        </button>
                     </div>
                 </div>
             </div>
         </section>
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy; 2021 Lucas Oliveira Santos - Todos os direitos reservados
+                </p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100003437518957" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/lucas_olivsantos/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/lucas-oliveira-076a2b179/" target="_blank"><i class="fab fa-linkedin"></i></a></li>    
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
     </div>
 </body>
 <script src="script.js"></script>
