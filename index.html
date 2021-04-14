@@ -37,7 +37,7 @@
                     <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimento</a></li>
                     <li class="menu-item"><a href="/docs/curriculo-lucas.pdf" class="menu-link">Currículo</a></li>
                     <li class="menu-item"><a href="#about" class="menu-link">Quem sou eu?</a></li>
-                    <li class="menu-item"><a href="#modal-contato" class="menu-link-modal">Contato</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link-modal">Contato</a></li>
                 </ul>
             </nav>
             <div class="social-media">
@@ -193,6 +193,26 @@
             <p>Celular</p>
         </div>
     </div>
+
+    <script>
+        function iniciaModal(modalID) {
+            const modal = document.getElementById(modalID);
+            if(modal) {
+                modal.classList.add('mostrar');
+                modal.addEventListener('click', function(e) {
+                    if(e.target.id == modalID || e.target.className == 'fechar') {
+                        modal.classList.remove('mostrar');
+                    }
+                });
+            }
+        }
+        
+        const contato = document.querySelector('.menu-link-modal');
+        contato.addEventListener('click', function() {
+            iniciaModal("modal-contato");
+        });
+    </script>
+    
 </body>
 <script src="script.js"></script>
 </html>
