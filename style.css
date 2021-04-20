@@ -590,3 +590,34 @@ footer{
     cursor: pointer;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .3);
 }
+
+.modal .contato-info h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--font-action);
+}
+
+.modal .contato-info p{
+    position: relative;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--font-primary);
+}
+
+.modal .contato-info img{
+    width: 30px;
+}
+
+.modal .botoes{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.modal .botoes img{
+    width: 50px;
+}
