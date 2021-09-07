@@ -621,3 +621,37 @@ footer{
 .modal .botoes img{
     width: 50px;
 }
+
+.sobre-img-wrapper{
+    display: table;
+}
+
+.sobre-img-wrapper p{
+    display: table-cell;
+    float: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 1000px;
+    font-size: 1.5rem;
+    font-family: var(--font-secundary);
+}
+
+.sobre-img-wrapper img{
+    display: table-cell;
+    float: left;
+    margin-bottom: 10px;
+    position: relative;
+    margin-left: 70px;
+    object-fit: cover;
+    width: 150px;
+    border-radius: 2rem;
+}
+
+.continuacao-texto-sobre p{
+    display: table-cell;
+    float: left;
+    margin-left: 70px;
+    width: 1230px;
+    font-size: 1.5rem;
+    font-family: var(--font-secundary);
+}
